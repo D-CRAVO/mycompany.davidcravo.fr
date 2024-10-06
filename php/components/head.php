@@ -7,9 +7,12 @@
         <?php if(isset($title)):?>
             <?= $title; ?>
         <?php else: ?>
-            Entreprise Fictive
+            My Company
         <?php endif ?>
     </title>
-    <link rel="icon" href="/src/img/logoCravoDavid.png">
+    <link rel="icon" href="/src/img/david_cravo.png">
+    <link rel="stylesheet" href="/src/css/style_home.css">
+    <link rel="stylesheet" href="/src/css/style_header.css">
+    <link rel="stylesheet" href="/src/css/style_footer.css">
 
 </head>
