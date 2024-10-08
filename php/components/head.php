@@ -10,8 +10,9 @@
             My Company
         <?php endif ?>
     </title>
-    <link rel="icon" href="/src/img/david_cravo.png">
+    <link rel="icon" href="/src/img/david_cravo_logo.jpeg">
     <link rel="stylesheet" href="/src/css/style_home.css">
+    <link rel="stylesheet" href="/src/css/style_find_us.css">
     <link rel="stylesheet" href="/src/css/style_header.css">
     <link rel="stylesheet" href="/src/css/style_footer.css">
 
