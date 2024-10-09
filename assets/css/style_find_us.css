@@ -1,0 +1,73 @@
+.main_find_us{
+    padding: 12rem 0rem 2rem 0rem;
+}
+
+.opening_hours ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.selected{
+    font-weight: 700;
+}
+
+.slots_addresses{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#9BC2D9, #fff8, #686663);
+    box-shadow: 0 1px 0 0 black;
+}
+
+.right{
+    margin: 0 2rem;
+}
+
+.building{
+    width: 100%;
+}
+
+.open{
+    color: #03865a;
+}
+
+.close{
+    color: #ff0000;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .slots_addresses{
+        flex-direction: row;
+    }
+
+    .building{
+        width: 50%;
+        height: 100%;
+    }
+
+    .right{
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .slots_addresses{
+        flex-direction: row;
+    }
+
+
+    .slots_addresses{
+        background: linear-gradient(#9BC2D9, #686663);
+        box-shadow: 0 1px 0 0 black;
+    }
+
+    .building{
+        width: 40%;
+        height: 100%;
+    }
+
+    .right{
+        margin-left: 10rem;
+    }
+
+
+}

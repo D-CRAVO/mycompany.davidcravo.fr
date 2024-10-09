@@ -1,2 +1,2 @@
 <?php
-header('Location: /pages/home.php');
+header('Location: /templates/home.php');
