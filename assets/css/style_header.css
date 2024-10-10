@@ -21,6 +21,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    z-index: 5;
 }
 
 .logo{
@@ -46,7 +47,7 @@ header ul li a{
 }
 
 header ul li a:hover{
-    color: #FD4600;
+    color: #F4A70180;
 
 }
 

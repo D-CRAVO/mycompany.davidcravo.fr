@@ -1,6 +1,6 @@
 <?php 
-    require __DIR__ . DIRECTORY_SEPARATOR . '../components/head.php';
-    require __DIR__ . DIRECTORY_SEPARATOR . '../components/header.php';
+    require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'head.php';
+    require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'header.php';
 ?>
 
 <main class="home_main">
