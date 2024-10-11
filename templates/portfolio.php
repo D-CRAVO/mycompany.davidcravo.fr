@@ -11,7 +11,11 @@
     
     <?php foreach($projects as $project): ?>
         <article class="portfolio_article">
-            <img src="<?= $project['image']?>" class="portfolio_img" alt="">
+            <div class="portfolio_image">
+                <a href="<?= $project['url'] ?>" target="_blank">
+                    <img src="<?= $project['image']?>" class="portfolio_img" alt="Image du projet">
+                </a>
+            </div>
             <div class="content">
                 <h2><?= $project['name'] ?></h2>
                 <h3><?= $project['technologies'] ?></h3>
