@@ -1,5 +1,5 @@
 <main class="footer_main">
-    <a href="davidcravo.fr" target="_blank">
+    <a href="https://davidcravo.fr/" target="_blank">
         <img src="/assets/images/david_cravo_logo.jpeg" class="footer_logo" alt="Logo de David CRAVO">
         David CRAVO
     </a>
