@@ -1,7 +1,10 @@
 .home_main{
     margin-top: 12rem;
+    margin-bottom: -0.5rem;
 }
 
 .home_main img{
     width: 100%;
+    height: 100%;
+
 }

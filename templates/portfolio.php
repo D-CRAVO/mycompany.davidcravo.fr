@@ -26,3 +26,7 @@
     <?php endforeach ?>
     
 </main>
+
+<?php
+    require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'footer.php';
+?>

@@ -35,7 +35,7 @@
     padding: 0.5rem 0;
     justify-content: center;
     border: none;
-    background-color: #101519;
+    background: linear-gradient(#9BC2D9, #686663);
 } 
 
 .content button:last-child{

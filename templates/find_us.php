@@ -1,11 +1,11 @@
 <?php 
-    include __DIR__ . DIRECTORY_SEPARATOR . '../includes/init.php'; 
-    require __DIR__ . DIRECTORY_SEPARATOR . '../components/head.php';
-    require __DIR__ . DIRECTORY_SEPARATOR . '../components/header.php'; 
+    include dirname(__DIR__) . DIRECTORY_SEPARATOR . 'includes' . DIRECTORY_SEPARATOR . 'init.php';
+    require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'head.php'; 
+    require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'header.php';
     
     date_default_timezone_set('Europe/Paris');
-    $time = (float)date('H:i');
-    $time_slots = TIME_SLOTS[date('w')];
+    $time = (int)date('H');
+    $time_slots = TIME_SLOTS[date('w')-1];
     $open = in_time_slots($time, $time_slots);
 ?>
 
@@ -40,4 +40,9 @@
     </div>  
 
 </main>
+
+<?php
+    require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'footer.php';
+?>
+
     
